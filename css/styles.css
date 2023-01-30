@@ -1,0 +1,199 @@
+:root {
+  /* Iris #4d5ae5; */
+  --primary-brand-color: #4d5ae5;
+
+  /* Ocean #404bbf; */
+  --hover-color: #404bbf;
+
+  /* Navy-Blue #2e2f42; */
+  --title-color: #2e2f42;
+  --hero-bg-color: #2e2f42;
+  --footer-bg-color: #2e2f42;
+
+  /* greeen #31d0aa; */
+  --footer-hover-color: #31d0aa;
+
+  /* Slate #434455; */
+  --text-color: #434455;
+
+  /* Light slate #8E8F99; */
+  --helped-color: #8e8f99;
+
+  /* Cornflower #E7E9FC; */
+  --footer-text: #e7e9fc;
+  --border-color: #e7e9fc;
+
+  /* Cloud #F4F4FD;  */
+  --team-bg-color: #f4f4fd;
+  --secondary-bg-btn: #f4f4fd;
+  --footer-span-color: #f4f4fd;
+
+  /* white */
+  --white: #ffffff;
+}
+
+/* ----------------------------BODY---------------------------- */
+body {
+  background-color: #ffffff;
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--hover-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* ----------------------------BUTTONS---------------------------- */
+.btn {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--hover-color);
+  color: var(--white);
+}
+
+.primary-btn {
+  background-color: var(--primary-brand-color);
+  color: var(--white);
+}
+
+.secondary-btn {
+  background-color: var(--secondary-bg-btn);
+  color: var(--primary-brand-color);
+}
+
+/* ----------------------------HEADER---------------------------- */
+.logo {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-logo {
+  color: var(--title-color);
+}
+
+.accent {
+  color: var(--primary-brand-color);
+}
+
+.header-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.header-link.current {
+  color: var(--hover-color);
+}
+
+.header-commerce {
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+/* ----------------------------MAIN---------------------------- */
+/* -----------------------SECTION TITLES----------------------- */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+/* ----------------------------HERO---------------------------- */
+.hero {
+  background-color: var(--hero-bg-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+/* ----------------------------CHARACTER---------------------------- */
+.character-text {
+  letter-spacing: 0.02em;
+}
+/* ---------------------------WHAT ARE WE DOING--------------------------- */
+
+/* ----------------------------TEAM----------------------------*/
+.team {
+  background-color: var(--team-bg-color);
+}
+
+.team-text {
+  letter-spacing: 0.02em;
+}
+/* --------------------------PORTFOLIO-------------------------- */
+.portfolio-link {
+  text-decoration: none;
+}
+
+.portfolio-text {
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+/* ----------------------------FOOTER---------------------------- */
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer-logo {
+  color: var(--primary-brand-color);
+}
+
+.footer-accent {
+  color: var(--footer-span-color);
+}
+
+.footer-text {
+  letter-spacing: 0.02em;
+  color: var(--footer-text);
+}
