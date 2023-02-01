@@ -96,6 +96,10 @@ img {
   /* outline: 2px solid tomato; */
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /* ----------------------------BUTTONS---------------------------- */
 .btn {
   font-size: 16px;
@@ -242,11 +246,6 @@ img {
 }
 
 /* ----------------------------CHARACTER---------------------------- */
-.character {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .character-list {
   display: flex;
   gap: 24px;
@@ -274,8 +273,6 @@ img {
 }
 /* ----------------------------TEAM----------------------------*/
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
   background-color: var(--team-bg-color);
 }
 
