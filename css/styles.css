@@ -93,7 +93,7 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 /* ----------------------------BUTTONS---------------------------- */
@@ -113,7 +113,7 @@ img {
 
 .hero-btn {
   min-width: 169px;
-  display: block;
+  display: inline-block;
   padding: 16px 32px;
   margin: 0 auto;
   color: var(--white);
@@ -226,6 +226,7 @@ img {
 
 /* ----------------------------HERO---------------------------- */
 .hero {
+  text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: var(--hero-bg-color);
@@ -237,7 +238,6 @@ img {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--white);
 }
 
@@ -326,9 +326,9 @@ img {
 }
 
 .portfolio-item-wrap {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-text {
