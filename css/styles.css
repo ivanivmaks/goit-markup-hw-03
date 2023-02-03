@@ -117,7 +117,6 @@ img {
 
 .hero-btn {
   min-width: 169px;
-  display: inline-block;
   padding: 16px 32px;
   margin: 0 auto;
   color: var(--white);
@@ -151,11 +150,13 @@ img {
 
 .header-nav {
   display: flex;
+  gap: 76px;
 }
 
 .nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -179,7 +180,6 @@ img {
 
 .header-list {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
 }
 
@@ -198,7 +198,6 @@ img {
 
 .header-contact {
   display: flex;
-  margin-left: 332px;
   gap: 40px;
 }
 
